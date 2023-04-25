@@ -1,0 +1,6 @@
+*{
+    box-sizing: border-box;
+    margin: 0;/*This makes the colors fill the gaps*/
+    padding: 0; /*This moved the words more left*/
+    font-family: 'PT Sans', sans-serif;
+}

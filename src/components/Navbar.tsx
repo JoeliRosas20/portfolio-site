@@ -7,11 +7,12 @@ function Navbar() {
 
     const handleClick = () => setClick(!click)//click is switched to true
     const closeMobileMenu = () => setClick(false)
+
   return (
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-title">
+          <Link to="/" className="navbar-title" onClick={closeMobileMenu}>
             Joel's Resume Site
           </Link>
           <div className="menu-icon" onClick={handleClick}>
