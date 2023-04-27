@@ -8,7 +8,12 @@ function Cards() {
     <div className="card_container">
       <div className="card_wrapper">
         <div className="card_items">
-          {/*<CardItem/>*/}
+          <CardItem
+            src="images/ExerciseSite.png"
+            text="My exercise site"
+            label="Exercise Site"
+            path="/projects"
+          />
         </div>
       </div>
     </div>
