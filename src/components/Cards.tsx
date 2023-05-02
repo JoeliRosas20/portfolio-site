@@ -8,14 +8,22 @@ function Cards() {
       <h1>These are my projects</h1>
       <div className="cards_container">
         <div className="cards_wrapper">
-          <div className="cards_items">
+          <ul className="cards_items">
             <CardItem
               src="images/ExerciseSite.png"
-              text="Useful with tracking my exercises"
-              label="Exercise Site"
+              text="Check out here to know more about me"
+              label="About Me"
               path="/projects"
             />
-          </div>
+          </ul>
+          <ul className="cards_items">
+            <CardItem
+              src="images/ExerciseSite.png"
+              text="Check out here to see my projects"
+              label="Projects"
+              path="/projects"
+            />
+          </ul>
         </div>
       </div>
     </div>
