@@ -1,0 +1,23 @@
+.project_container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.project_item{
+    display: flex;
+    flex: 1;
+}
+
+.project_item_title{
+    height: 50px;
+}
+
+.project_item_info{
+    margin-left: -210px;
+    padding: 50px 0px 50px;
+    line-height: 24px;
+}
