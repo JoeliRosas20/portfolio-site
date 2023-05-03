@@ -14,6 +14,14 @@ h1{
     width: 650px;
 }
 
+.lehman-image{
+    margin-left: 120px;
+}
+
+.aboutme-education-desc{
+    width: 650px;
+}
+
 .skills-icons{
     display: flex;
     width: 440px;
@@ -42,6 +50,10 @@ h1{
     width: 45px;
 }
 
+.aboutme-experience-desc{
+    width: 650px;
+}
+
 .aboutme-other{
-    width: 440px;
+    width: 650px;
 }
