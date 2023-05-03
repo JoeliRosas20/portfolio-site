@@ -4,8 +4,8 @@ import './HeroSection.css'
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <h1>Welcome to my resume</h1>
-        <p>My name is Joel Rosas</p>
+        <h1>Hello there. </h1>
+        <p>My name is <b>Joel Rosas</b></p>
     </div>
   )
 }
