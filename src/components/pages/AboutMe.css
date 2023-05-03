@@ -1,3 +1,43 @@
 h1{
     color: black;
 }
+
+.aboutme-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 24px;
+}
+
+.aboutme-summary{
+    width: 650px;
+}
+
+.skills-icons{
+    display: flex;
+    width: 440px;
+    font-size: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-html5{
+    color: #e6410a;
+}
+
+.fa-css3-alt{
+    color: #105ada;
+}
+
+.fa-js{
+    color: #f7d708;
+}
+
+.fa-react{
+    color: #01e8f9;
+}
+
+.typescript{
+    width: 45px;
+}
