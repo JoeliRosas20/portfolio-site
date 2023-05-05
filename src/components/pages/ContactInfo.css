@@ -5,11 +5,19 @@
     justify-content: center;
 }
 
-.messageLabel{
+.name-input{
+    width: 200px;
+}
+
+.email-input{
+    width: 200px;
+}
+
+.message-label{
     display:flex
 }
 
 #message{
-    margin-left: 70px;
-    margin-top: -15px;
+    margin: -20px 0 0 0;
+    width: 200px;
 }

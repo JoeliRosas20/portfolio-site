@@ -3,6 +3,7 @@ import "./AboutMe.css";
 import Resume from "./Resume.pdf";
 
 function AboutMe() {
+
   return (
     <div className="aboutme-container">
       <h1>Who am I?</h1>
