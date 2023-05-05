@@ -14,10 +14,16 @@
 
 .project_item_title{
     height: 50px;
+    padding-left: 10px;
 }
 
 .project_item_info{
     margin-left: -210px;
     padding: 50px 0px 50px;
     line-height: 24px;
+}
+
+.project_item_img{
+    padding-left: 10px;
+    width: 710px;
 }
