@@ -3,7 +3,7 @@ import "./ContactInfo.css";
 
 function ContactInfo() {
   const [firstName, setFirstName] = useState("");
-  const [lastName, setlastName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState(false);
@@ -26,29 +26,29 @@ function ContactInfo() {
       <form onSubmit={onFormSubmit}>
         <label htmlFor="name">First Name</label>
         <br />
-        <input type="text" id="name" className="name-input" />
+        <input type="text" id="name" className="name-input" onChange={e=>setFirstName(e.target.value)}/>
         <br />
-        {error && firstName.length <= 0 ? <label>It cannot be empty</label> : ""}
+        {error && firstName.length <= 0 ? <label className="error">It cannot be empty</label> : ""}
         <br />
         <label htmlFor="name">Last Name</label>
         <br />
-        <input type="text" id="name" className="name-input" />
+        <input type="text" id="name" className="name-input" onChange={e=>setLastName(e.target.value)}/>
         <br />
-        {error && lastName.length <= 0 ? <label>It cannot be empty</label> : ""}
+        {error && lastName.length <= 0 ? <label className="error">It cannot be empty</label> : ""}
         <br />
         <label htmlFor="email">Email</label>
         <br />
-        <input type="text" id="email" className="email-input" />
+        <input type="text" id="email" className="email-input" onChange={e=>setEmail(e.target.value)}/>
         <br />
-        {error && message.length <= 0 ? <label>It cannot be empty</label> : ""}
+        {error && message.length <= 0 ? <label className="error">It cannot be empty</label> : ""}
         <br />
         <label htmlFor="message" className="message-label">
           Message
         </label>
         <br />
-        <textarea rows={10} cols={30} id="message"></textarea>
+        <textarea rows={10} cols={30} id="message" onChange={e=>setMessage(e.target.value)}/>
         <br />
-        {error && message.length <= 0 ? <label>It cannot be empty</label> : ""}
+        {error && message.length <= 0 ? <label className="error">It cannot be empty</label> : ""}
         <br />
         <button type="submit">submit</button>
       </form>
