@@ -9,18 +9,11 @@
 
 .project_item{
     display: flex;
-    flex: 1;
-}
-
-.project_item_title{
-    height: 50px;
-    padding-left: 10px;
+    flex-flow: row;
 }
 
 .project_item_info{
-    margin-left: -210px;
-    padding: 50px 0px 50px;
-    line-height: 24px;
+    padding-left: 10px;
 }
 
 .project_item_img{

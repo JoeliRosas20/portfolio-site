@@ -10,6 +10,10 @@ h1{
     border: 24px;
 }
 
+.pic{
+    width: 600px;
+}
+
 .aboutme-summary{
     width: 650px;
 }

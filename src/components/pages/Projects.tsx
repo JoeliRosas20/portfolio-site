@@ -9,7 +9,13 @@ function Projects() {
       <ProjectItem
         src="images/spacegame.gif"
         title="Space Explorers"
-        description="A game I designed "
+        description="A game I designed where "
+      />
+      <br/>
+      <ProjectItem
+        src="images/ExerciseSite.png"
+        title="Exercise Site"
+        description="A game I designed where "
       />
     </div>
   );

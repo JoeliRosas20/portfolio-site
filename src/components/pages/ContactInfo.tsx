@@ -42,9 +42,7 @@ function ContactInfo() {
         <br />
         {error && message.length <= 0 ? <label className="error">It cannot be empty</label> : ""}
         <br />
-        <label htmlFor="message" className="message-label">
-          Message
-        </label>
+        <label htmlFor="message" className="message-label">Message</label>
         <br />
         <textarea rows={10} cols={30} id="message" onChange={e=>setMessage(e.target.value)}/>
         <br />

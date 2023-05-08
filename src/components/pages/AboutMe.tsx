@@ -7,7 +7,7 @@ function AboutMe() {
   return (
     <div className="aboutme-container">
       <h1>Who am I?</h1>
-      <p>*Insert photo here*</p>
+      <img className="pic" src="/images/sample.jpg"/>
       <div className="aboutme-summary">
         <p>
           Born and raised in New York. From a young age I had an interest in
