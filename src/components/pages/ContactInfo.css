@@ -5,12 +5,16 @@
     justify-content: center;
 }
 
+form{
+    width: 220px;
+}
+
 .name-input{
-    width: 200px;
+    width: 250px;
 }
 
 .email-input{
-    width: 200px;
+    width: 250px;
 }
 
 .message-label{
@@ -19,7 +23,7 @@
 
 #message{
     margin: -20px 0 0 0;
-    width: 200px;
+    width: 250px;
 }
 
 .error{

@@ -17,6 +17,12 @@ function Projects() {
         title="Exercise Site"
         description="A game I designed where "
       />
+      <br/>
+      <ProjectItem
+        src=""
+        title="Resume Site"
+        description="A site I designed where"
+      />
     </div>
   );
 }
