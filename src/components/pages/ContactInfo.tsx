@@ -23,13 +23,15 @@ function ContactInfo() {
   return (
     <div className="contactInfo-container">
       <h1>Let's connect!!!</h1>
+      <p className="contactInfo-desc">Whether its to network for tech or 
+      to talk with me about something outside of tech, you can email me or chat with 
+      me through Linkedin.</p>
+      <h2>Contact Info</h2>
       <div className="contactInfo-myInfo">
-        <h2>Contact Info</h2>
         Gmail: joeli.rosas20@gmail.com
         <br />
         <p>
-          Linkedin:
-          <a
+          Linkedin: <a
             href="https://www.linkedin.com/in/joel-rosas-50b653170/"
             target="_blank"
             rel="noopener noreferrer"

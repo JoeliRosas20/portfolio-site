@@ -13,12 +13,12 @@ h1{
     align-items: center;
     max-width: 1120px; /*The width cannot go further than 1120px*/
     width: 90%;
-    margin: 0 auto;/*The top and bottom margin is 0, while left and right margin is auto*/
+    margin: 0 auto;
 }
 
 .cards_wrapper{
-    position: relative;/*The place of the cards can be changed by other values*/
-    margin: 50px 0 45px;/*top, left and right ,bottom*/
+    position: relative;
+    margin: 50px 0 45px;
 }
 
 .cards_items{
