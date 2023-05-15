@@ -5,6 +5,7 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .project_item{
@@ -13,10 +14,10 @@
 }
 
 .project_item_info{
-    padding-left: 10px;
+    padding: 0 40px 0 10px;
 }
 
 .project_item_img{
-    padding-left: 10px;
+    padding-left: 20px;
     width: 710px;
 }
