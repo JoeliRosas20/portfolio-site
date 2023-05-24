@@ -21,3 +21,15 @@
     padding-left: 20px;
     width: 710px;
 }
+
+@media only screen and (max-width: 980px){
+    .project_item_img{
+        width: 365px;
+        height: 205px; /*690x410*/
+        padding: 0 0 0 30px;
+    }
+
+    .project_item_info{
+        margin: 200px 0 0 -320px;
+    }
+}
