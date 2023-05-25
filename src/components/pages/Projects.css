@@ -22,6 +22,12 @@
     width: 710px;
 }
 
+@media only screen and (max-width: 1170px){
+    .project_item_img{
+        height: 390px;
+    }
+}
+
 @media only screen and (max-width: 980px){
     .project_item_img{
         width: 365px;

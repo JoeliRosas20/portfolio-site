@@ -61,3 +61,45 @@ h1{
 .aboutme-other{
     width: 650px;
 }
+
+@media only screen and (max-width: 980px){
+    .pic{
+        width: 300px;
+        height: 225px;
+    }
+
+    .aboutme-summary{
+        width: 350px;
+    }
+
+    .aboutme-education{
+        width: 350px;
+    }
+
+    .lehman-image{
+        width: 300px;
+        height: 300px;
+        margin: 0 0 0 30px;
+    }
+
+    .aboutme-education-desc{
+        width: 350px;
+        margin: 0 0 0 10px;
+    }
+
+    .skills-icons{
+        width: 350px;
+    }
+
+    .aboutme-experience{
+        width: 350px;
+    }
+
+    .aboutme-experience-desc{
+        width: 350px;
+    }
+
+    .aboutme-other{
+        width: 350px;
+    }
+}
