@@ -27,7 +27,7 @@ function ContactInfo() {
       setError(true);
     }
     if (window.Email){
-      window.Email.send(config).then((message: any) => alert("sent successfully"))
+      window.Email.send(config).then(() => alert("sent successfully"))
     }
   };
 
