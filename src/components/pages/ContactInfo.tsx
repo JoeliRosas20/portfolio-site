@@ -27,7 +27,7 @@ function ContactInfo() {
       setError(true);
     }
     if (window.Email){
-      window.Email.send(config).then((message) => alert("sent successfully"))
+      window.Email.send(config).then((message: any) => alert("sent successfully"))
     }
   };
 
@@ -84,7 +84,7 @@ function ContactInfo() {
           id="name"
           className="name-input"
           name="lastName"
-          value=""
+          value={lastName||""}
           onChange={(e) => setLastName(e.target.value)}
         />
         <br />
@@ -102,7 +102,7 @@ function ContactInfo() {
           id="email"
           className="email-input"
           name="email"
-          value=""
+          value={email||""}
           onChange={(e) => setEmail(e.target.value)}
         />
         <br />
@@ -122,7 +122,7 @@ function ContactInfo() {
           cols={30}
           id="message"
           name="message"
-          value=""
+          value={message||""}
           onChange={(e) => setMessage(e.target.value)}
         />
         <br />
