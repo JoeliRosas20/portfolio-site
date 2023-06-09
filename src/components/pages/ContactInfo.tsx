@@ -7,8 +7,16 @@ function ContactInfo() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState(false);
+  const [formState, setFormState] = useState({})
 
   const onFormSubmit = (e: any) => {
+    const config = {
+      SecureToken: '78942da0-05f9-429a-a513-52d838b3b2f7',
+      To : 'joelrosas20@yopmail.com',
+      From : email,
+      Subject : "This is from my contact form",
+      Body : `${firstName} connected to you over email` 
+    }
     e.preventDefault();
     if (
       firstName.length == 0 ||
@@ -18,7 +26,14 @@ function ContactInfo() {
     ) {
       setError(true);
     }
+    if (window.Email){
+      window.Email.send(config).then((message) => alert("sent successfully"))
+    }
   };
+
+  const changeHandler = (event: { target: { name: any; value: any; }; }) =>{
+    setFormState({...formState, [event.target.name]: event.target.value})
+  }
 
   return (
     <div className="contactInfo-container">
@@ -41,14 +56,18 @@ function ContactInfo() {
         </p>
       </div>
       <br/>
+      {/**The Form */}
       <form onSubmit={onFormSubmit}>
+        {/**First Name */}
         <label htmlFor="name">First Name</label>
         <br />
         <input
           type="text"
           id="name"
           className="name-input"
-          onChange={(e) => setFirstName(e.target.value)}
+          name="firstName"
+          value={firstName||""}
+          onChange={(e) => {setFirstName(e.target.value); changeHandler}}
         />
         <br />
         {error && firstName.length <= 0 ? (
@@ -57,12 +76,15 @@ function ContactInfo() {
           ""
         )}
         <br />
+        {/**Last Name */}
         <label htmlFor="name">Last Name</label>
         <br />
         <input
           type="text"
           id="name"
           className="name-input"
+          name="lastName"
+          value=""
           onChange={(e) => setLastName(e.target.value)}
         />
         <br />
@@ -72,12 +94,15 @@ function ContactInfo() {
           ""
         )}
         <br />
+        {/**Email */}
         <label htmlFor="email">Email</label>
         <br />
         <input
           type="text"
           id="email"
           className="email-input"
+          name="email"
+          value=""
           onChange={(e) => setEmail(e.target.value)}
         />
         <br />
@@ -87,6 +112,7 @@ function ContactInfo() {
           ""
         )}
         <br />
+        {/**Message */}
         <label htmlFor="message" className="message-label">
           Message
         </label>
@@ -95,6 +121,8 @@ function ContactInfo() {
           rows={10}
           cols={30}
           id="message"
+          name="message"
+          value=""
           onChange={(e) => setMessage(e.target.value)}
         />
         <br />
