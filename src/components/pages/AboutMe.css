@@ -11,7 +11,7 @@ h1{
 }
 
 .pic{
-    width: 600px;
+    width: 300px;
 }
 
 .aboutme-summary{
@@ -64,8 +64,7 @@ h1{
 
 @media only screen and (max-width: 980px){
     .pic{
-        width: 300px;
-        height: 225px;
+        width: 200px;
     }
 
     .aboutme-summary{
