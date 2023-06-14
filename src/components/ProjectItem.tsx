@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 interface Props {
   description: string;
@@ -8,7 +8,8 @@ interface Props {
   extraLink?: string;
 }
 
-function ProjectItem({ src, title, description, link}: Props) {
+function ProjectItem({ src, title, description, link, extraLink}: Props) {
+  const links = extraLink
   return (
     <>
       <div className="project_item">
@@ -20,6 +21,8 @@ function ProjectItem({ src, title, description, link}: Props) {
             <br/>
             <h3>Links</h3>
             <a href={link} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            <br/>
+            {links.length > 0? (<a href={extraLink} target="_blank" rel="noopener noreferrer">Site</a>) : ("")}
           </div>
         </div>
       </div>

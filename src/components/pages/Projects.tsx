@@ -17,6 +17,7 @@ function Projects() {
         each level was loaded by calling a method which took a number. Each level was represented by a number. Once the user got to the end of the level, the number incremented
         and the next level was loaded. The game also has music running in the background too."
         link = "https://github.com/JoeliRosas20/TheSpacePlatformer"
+        extraLink = ""
       />
       <br/>
       <ProjectItem
@@ -27,6 +28,7 @@ function Projects() {
         using HTML, CSS and vanilla JS. The site can add exercises, edit the exercise and delete exercises. I hosted the site on 000WebHostServer000 becauase it was free and I am 
         able to easily see changes on the site. "
         link="https://github.com/JoeliRosas20/JoeyExercise"
+        extraLink="https://joeyexercisetracker.000webhostapp.com/"
       />
       <br/>
       <ProjectItem
@@ -38,6 +40,7 @@ function Projects() {
         site was made. I did not use frameworks there compared to this one. The framework I used here was bootstrap. I decided to make a revised version since I wanted to pick up ReactJS and 
         stay up to date with it."
         link="https://github.com/JoeliRosas20/portfolio-site"
+        extraLink = ""
       />
     </div>
   );
