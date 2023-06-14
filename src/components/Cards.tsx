@@ -10,15 +10,15 @@ function Cards() {
         <div className="cards_wrapper">
           <ul className="cards_items">
             <CardItem
-              src="images/ExerciseSite.png"
+              src="images/Person.png"
               text="Check out here to know more about me"
               label="About Me"
-              path="/projects"
+              path="/aboutme"
             />
           </ul>
           <ul className="cards_items">
             <CardItem
-              src="images/ExerciseSite.png"
+              src="images/Folder.jpg"
               text="Check out here to see my projects"
               label="Projects"
               path="/projects"
