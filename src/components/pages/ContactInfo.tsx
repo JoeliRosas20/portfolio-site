@@ -15,7 +15,7 @@ function ContactInfo() {
       To : 'joelrosas20@yopmail.com',
       From : email,
       Subject : "This is from my contact form",
-      Body : `${firstName} connected to you over email` 
+      Body : `${firstName} ${lastName} would like to connect and said:\n ${message}` 
     }
     e.preventDefault();
     if (
