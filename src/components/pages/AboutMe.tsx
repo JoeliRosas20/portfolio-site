@@ -87,6 +87,7 @@ function AboutMe() {
       <a href={Resume} target="_blank" rel="noopener noreferrer">
         Click here to download my resume
       </a>
+      <br/>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItem from "../ProjectItem";
 import './Projects.css'
+import OldSite from "./OldSite.pdf";
 
 function Projects() {
   return (
@@ -40,7 +41,7 @@ function Projects() {
         site was made. I did not use frameworks there compared to this one. The framework I used here was bootstrap. I decided to make a revised version since I wanted to pick up ReactJS and 
         stay up to date with it."
         link="https://github.com/JoeliRosas20/portfolio-site"
-        extraLink = ""
+        extraLink = {OldSite}
       />
     </div>
   );
