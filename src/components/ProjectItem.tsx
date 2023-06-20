@@ -5,7 +5,7 @@ interface Props {
   src: string;
   title: string;
   link: string;
-  extraLink?: string;
+  extraLink: string;
 }
 
 function ProjectItem({ src, title, description, link, extraLink}: Props) {
