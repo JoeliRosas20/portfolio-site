@@ -1,5 +1,5 @@
 # portfolio-site
-<h1>Code explanation for each page</h1>
+Code explanation for each page. The HTML, CSS, and JS.
 
 <h2>Home</h2>
 
